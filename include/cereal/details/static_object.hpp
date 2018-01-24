@@ -73,7 +73,6 @@ namespace cereal
         static T & create()
         {
           static T t;
-          instantiate(instance);
           return t;
         }
 
